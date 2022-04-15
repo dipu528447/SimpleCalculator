@@ -13,10 +13,11 @@
     margin: 40px auto;
 }
 .btn{
-    width:22%;
+    width:20%;
     height:10vh;
-    margin: 2px;
+    margin:2px 8px;
     font-size: larger;
+    
 }
 .button{
     margin: auto;
