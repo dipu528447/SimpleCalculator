@@ -36,10 +36,10 @@ function buttonAction(pressedButton)
             screen = firstOperand - secondOperand;
         }
         else if(operation == '*'){
-            screen = firstOperand * secondOperand;
+            screen = (firstOperand * secondOperand).toFixed(3);
         }
         else if(operation == '/'){
-            screen = firstOperand / secondOperand;
+            screen = (firstOperand / secondOperand).toFixed(3);
         }
         else if(operation == '%'){
             screen = firstOperand % secondOperand;
@@ -61,6 +61,9 @@ function buttonAction(pressedButton)
     updateScreen();
 }
 function updateScreen() {
-    document.getElementById("screen_1").innerText = screen;
+    if(screen<999999999999999 || screen=='Infinity'){
+        document.getElementById("screen_1").innerText = screen;
+    }
+    
 }
 updateScreen();

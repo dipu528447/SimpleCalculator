@@ -1,30 +1,13 @@
 .screen{
-    width: 90%;
-    height: 10vh;
     background: gray;
     margin: 20px auto;
     border: 2px solid black;
     border-radius: 10px;
 }
 .main{
-    width:25%;
-    height: 72vh;
     border: 2px solid white;
     margin: 40px auto;
-}
-.btn{
-    width:20%;
-    height:10vh;
-    margin:2px 8px;
-    font-size: larger;
-    
-}
-.button{
-    margin: auto;
-    width:90%;
-    height: 55vh;
-    /* border: 2px solid black; */
-    
+    padding: 10px;
 }
 body{
     background-color: dimgray
@@ -32,7 +15,8 @@ body{
 #screen_1{
     text-align: right;
     width:98%;
-    height: 9vh;
-    font-size: 40px;
-    
+    font-size: 30px;
+}
+.btn{
+    margin:2px 0px;
 }
